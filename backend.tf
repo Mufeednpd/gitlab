@@ -1,7 +1,9 @@
+
 #create s3
 
 resource "aws_s3_bucket" "mybucket"{
-    bucket = "s3mufeed007"
+
+    bucket = "s3mufeed006"
     versioning {
         enabled = true
     }
